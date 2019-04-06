@@ -1,0 +1,317 @@
+.mag{
+	background:#1F1F21;
+	padding:2em 0;
+	text-align:center;
+}   css/css/default.css
+.mag h4{
+	font-size:32px;
+	color:#fff;
+	margin:0px;
+	font-family: 'Antic Didone', serif;
+	font-style:italic;
+	display:block;
+	}
+.mag span{
+	border-top:1px solid #F2AB7F;
+	display: block;
+	background: url(images/line-1.png) no-repeat 560px 0px;
+	height: 15px;
+	margin-top: 10px;
+	}
+.dor{
+	margin:4em 0 0;
+	}
+.dor-left{
+	float:left;
+	width:50%;
+	position:relative;
+	}
+.dor-right{
+	float:right;
+	width: 28%;
+	text-align: center;
+	margin: 5em 0 0;
+	}
+.dor-left-text{
+	position:absolute;
+	top:1%;
+	left: 43%;
+	}
+.dor-left-text h3{
+	font-size:30px;
+	margin: 2em 0 1em;
+	color:#28272A;
+	font-family: 'Antic Didone', serif;
+	font-style:italic;
+	}
+.dor-left-text ul{
+	padding:0px;
+	margin:0px;
+	text-align:right;
+	background: url(images/cross-1.png) no-repeat 202px 118px;
+	height: 130px;
+	display:block;
+	}
+.dor-left-text ul li{
+	list-style-type:none;
+	font-size: 14px;
+	color: #363538;
+	}
+.dor-right-image{
+	background:url(images/plate.png) no-repeat 0px 0px;
+	width:136px;
+	height:96px;
+	display:block;
+	}
+.dor-right-image p{
+	font-size:22px;
+	color:#363538;
+	margin:0px;
+	padding: 1.3em 0 0;
+	}
+.dor1{
+	margin:6em 0 0;
+	}
+.dor-right1{
+	float:right;
+	width:50%;
+	position:relative;
+	}
+.dor-left1{
+	float:left;
+	width: 28%;
+	text-align: center;
+	margin: 5em 0 0 9em;
+	}
+.dor-right-image1{
+	background:url(images/plate.png) no-repeat 0px 0px;
+	width:136px;
+	height:96px;
+	display:block;
+	}
+.dor-right-image1 p{
+	font-size:22px;
+	color:#363538;
+	margin:0px;
+	padding: 1.3em 0 0;
+	}
+.dor-left-fig1{
+	text-align:right;
+	}
+.dor-left-text1{
+	position:absolute;
+	top:1%;
+	right: 43%;
+	text-align:left;
+	}
+.dor-left-text1 h3{
+	font-size:30px;
+	margin: 2em 0 1em;
+	color:#28272A;
+	font-family: 'Antic Didone', serif;
+	font-style:italic;
+	}
+.dor-left-text1 ul{
+	padding:0px;
+	margin:0px;
+	background: url(images/cross-1.png) no-repeat 3px 118px;
+	height: 130px;
+	display:block;
+	}
+.dor-left-text1 ul li{
+	list-style-type:none;
+	font-size: 14px;
+	color: #363538;
+	}
+h3.tal{
+	text-align:right;
+	}
+	
+	
+	
+	
+.totop{
+	margin-bottom:20px;}
+	
+	
+	
+.login {
+	margin-left: 150px;
+}
+.register {
+	float:left;
+	padding-left:20px;
+	
+}
+
+.login-part {
+  margin:0 auto;
+  margin-bottom: 25%;
+  padding-top: 3%;
+  padding-left: 0%;
+  padding-bottom: 3%;
+  display: block;
+  border: 1px solid #e25111;
+  border-radius:10px;
+  box-shazdow: 1px 1px 1px #eaeaea;
+  width: 30em; 
+}
+
+.user-info {
+  padding: 0 30px;
+}
+.user-pass form {
+  margin: 0;
+  padding: 0;
+  padding-right: 8px;
+}
+.user-name {
+  
+  background: url("../images/login-locked-icon.png") no-repeat 15px center;
+
+}
+.pass-word {
+  background: url("../images/login-key-icon.png") no-repeat 15px center;
+  margin-bottom: 0;
+}
+
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: bisque;  
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: bisque;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: bisque;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color:bisque;
+}
+.user-name,
+.pass-word {
+  color:bisque;
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  border: 1px solid #e25111;
+  margin-bottom: 20px;
+  font-weight: normal;
+  text-indent: 23px;
+  outline: 0;
+  font-size: 1.25em;
+  *line-height: 20px;
+  border-radius:3px;
+	
+}
+.auth-word{
+  width:50%;
+  float:left;
+}
+.logging {
+  background: #e25111;
+  display: block;
+  height: 44px;
+  line-height: 44px;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em;
+  text-decoration: none;
+  clear: both;
+  width: 100%;
+  border: solid 1px #c90000;
+  border-radius:3px;
+  box-shadow:0 0 3px #fff inset;
+  /*box-shadow:0 0 30px #e3766b inset;*/
+}
+
+.logging:hover {
+  background: #ba1813;
+  color: #fff;
+  text-decoration: none;
+}
+.third-part {
+  padding: 20px 52px 35px 30px;
+  text-align:center;
+}
+.third-part span {
+  display: block;
+  font-size: 1.083em;
+  color: #666;
+  margin-bottom: 11px;
+  
+}
+.third-part .qq {
+  background-position: 0 0;
+}
+.third-part .wechat {
+  background-position: -37px 0;
+}
+.third-part .sina {
+  background-position: -74px 0;
+}
+.third-part .baidu {
+  background-position: -112px 0;
+}
+.third-part .cc {
+  background-position: -150px 0;
+}
+.third-part .github {
+  background-position: -187px 0;
+}
+.third-part .show_more{
+  background-position:-224px 0;
+}
+.third-part .OSC {
+  background-position: -262px 0;
+}
+
+.third-part .sina,.third-part .baidu,.third-part .cc,.third-part .github,.third-part-new .show_more{
+  display:none;
+}
+.third-part-new .sina,.third-part-new .baidu,.third-part-new .cc,.third-part-new .github{
+  display:inline-block;
+}
+
+.third-part .register-now {
+  margin-top: 20px;
+}
+.third-part .register-now span {
+  display: inline-block;
+}
+.third-part .register-now .register {
+  text-align: right;
+}
+.third-part .register-now .register a {
+  margin-left: 15px;
+}
+.line {
+  background: #e25111;
+  height: 1px;
+  margin-top: 40px;
+}
+
+.sina,
+.linkin,
+.baidu,
+.qq,
+.google,
+.cc,
+.github,
+.wechat,
+.OSC,
+.show_more{
+  display: inline-block;
+  background-image: url("../images/login-third-party-new.png");
+  background-repeat: no-repeat;
+  margin-right: 5px;
+  width: 32px;
+  height: 32px;
+}
+
+.sousuo{font-size:300px;}

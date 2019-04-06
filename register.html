@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>十一点</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<meta name="format-detection" content="telephone=no">
+<meta name="renderer" content="webkit">
+<meta name="author" content="www.cssmoban.com" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="css/css/default.css">
+<link rel="stylesheet" href="css/jia.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body  style="background-image:url(images/loginbg.jpg);background-attachment:fixed;background-repeat:no-repeat;background-size:100% 100%">
+<header>
+  <div class="header-carousel container">
+    <div id="myCarousel" class="carousel slide"> 
+     
+     
+    <!--  <ol class="carousel-indicators">-->
+        <div class="login-part">
+              <h3 style="text-align:center; color:#ff7f00;">帐号注册</h3>
+              <div class="user-info">
+                <div class="user-pass">
+                
+                  <form id="fm1" action="#" method="get">
+
+                    <input id="username" name="username" tabindex="1" placeholder="输入用户名/邮箱/手机号" class="user-name" type="text" value=""/>
+                    <input id="password" name="password" tabindex="2" placeholder="输入密码" class="pass-word" type="password" value="" autocomplete="off"/>
+                   
+                    <input id="username" name="username" tabindex="1" placeholder="输入年龄" class="user-name" type="text" value=""/>
+                    <input id="username" name="username" tabindex="1" placeholder="输入地址" class="user-name" type="text" value=""/>
+                    <input id="username" name="username" tabindex="1" placeholder="您喜欢的美食" class="user-name" type="text" value=""/>
+
+							<div class="error-mess" style="display:none;">
+								<span class="error-icon"></span><span id="error-message"></span>
+							</div>
+
+                    <div class="row forget-password" style="padding-right:25%;padding-bottom: 10%;">
+                    	<span class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        	
+                        </span>
+                        
+                    </div>
+                    <!-- 该参数可以理解成每个需要登录的用户都有一个流水号。只有有了webflow发放的有效的流水号，用户才可以说明是已经进入了webflow流程。否则，没有流水号的情况下，webflow会认为用户还没有进入webflow流程，从而会重新进入一次webflow流程，从而会重新出现登录界面。 -->
+					<input type="hidden" name="lt" value="LT-1930113-ACqAJTx3ewFa1IaLNw1CVcSsEdAXHZ" />
+			 		<input type="hidden" name="execution" value="e2s1" /> 
+					<input type="hidden" name="_eventId" value="submit" /> 
+					<div style="padding-bottom: 10%;"><a href="index.html"><input class="logging" accesskey="l" value="确定" tabindex="6" type="button" /> </a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            <!--  <div class="line"></div>-->
+
+            </div>
+     <!-- </ol>-->
+      <!-- 轮播（Carousel）项目 -->
+   <!-- <div>
+        <div class="item active"> <img src="images/banner.jpg" style="width:100%;" alt="First slide"> </div>
+      </div>-->
+  </div>
+</header>
+
+
+</body>
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/bootstrap/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</html>

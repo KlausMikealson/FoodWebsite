@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>十一点</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+<meta name="format-detection" content="telephone=no">
+<meta name="renderer" content="webkit">
+<meta name="author" content="www.cssmoban.com" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="css/css/default.css">
+<link rel="stylesheet" href="css/jia.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="Bookmark" href="favicon.ico">
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script>
+$(document).ready(function() {
+    var c_name = $.cookie('c_name');
+	if(c_name=="ok")
+	{
+	$("#login").css('display','none');
+	$("#register").css('display','none');	
+	}
+	else{$("#exit").css('display','none');}
+});
+function exit(){
+	$.cookie("c_name",null);
+	c_name=$.cookie('c_name');
+	};
+</script>
+
+
+
+</head>
+<body style="background-image:url(images/loginbg.jpg);background-attachment:fixed;background-repeat:no-repeat;background-size:100% 100%">
+<header>
+                     
+
+<div class="login-part">
+              <h3 style="padding-left:0; color:#ff7f00" align="center">帐号登录 </h3>
+              <div class="user-info">
+                <div class="user-pass">
+                
+                  <form id="fm1" action="#" method="get">
+
+                    <input id="username" name="username" tabindex="1" placeholder="输入用户名/邮箱/手机号" class="user-name" type="text" value=""/>
+                    <input id="password" name="password" tabindex="2" placeholder="输入密码" class="pass-word" type="password" value="" autocomplete="off"/>
+
+							<div class="error-mess" style="display:none;">
+								<span class="error-icon"></span><span id="error-message"></span>
+							</div>
+
+                    <div class="row forget-password" style="padding-right:25%;">
+                    	<span class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        	<input type="checkbox" name="rememberMe" id="rememberMe" value="true" class="auto-login" tabindex="4"/>
+                        	<label for="rememberMe" style="font-size:19px;color:cornflowerblue">下次自动登录</label>
+                        </span>
+                        
+                    </div>
+                    <!-- 该参数可以理解成每个需要登录的用户都有一个流水号。只有有了webflow发放的有效的流水号，用户才可以说明是已经进入了webflow流程。否则，没有流水号的情况下，webflow会认为用户还没有进入webflow流程，从而会重新进入一次webflow流程，从而会重新出现登录界面。 -->
+					<input type="hidden" name="lt" value="LT-1930113-ACqAJTx3ewFa1IaLNw1CVcSsEdAXHZ" />
+			 		<input type="hidden" name="execution" value="e2s1" /> 
+					<input type="hidden" name="_eventId" value="submit" /> 
+					<a href="index.html"><input class="logging" accesskey="l" value="登 录" tabindex="6" type="button" /> </a>
+                    
+
+                  </form>                </div>
+              </div>
+              <div class="line"></div>
+              <div class="third-part tracking-ad" data-mod="popu_27" style="margin:0 auto;">
+              	<span style="color:#ff7f00;">第三方帐号登录</span>
+              	<div style="height: 80px">
+              		
+              		<a><img src="images/qqzone.png" style="width:50px; margin-left: 25px;"></a>
+              		<a><img src="images/weixin.png" style="width:45px; margin-left: 20px;"  ></a>
+              		<a><img src="images/renren.png" style="width:55px; margin-left: 20px;"></a>
+              	</div>
+              	
+              	
+                <div class="register-now" >
+	                <span class="register tracking-ad" data-mod="popu_28"></span>
+	                	<font style="font-size: 17px;color:#ff8c00;">还没有帐号？</font>
+	                	<a href="register.html" style="color:darkblue;padding-left:5%;font-size:18px;">立即注册</a>  
+               	</div>
+               <!-- <a id="exit" onClick="exit()" href="index.html">退出</a>-->
+              </div>
+            </div>
+            
+   </header>                   
+</body>
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/bootstrap/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</html>
